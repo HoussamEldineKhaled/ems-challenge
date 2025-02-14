@@ -19,6 +19,13 @@ export default function EmployeesPage() {
               <li>Employee #{employee.id}</li>
               <ul>
                 <li>Full Name: {employee.full_name}</li>
+                <li>Email: {employee.email}</li>
+                <li>Phone Number: {employee.phone_number}</li>
+                <li>Secondary Number: {employee.secondary_number}</li>
+                <li>Password: {employee.pasword}</li>
+                <li>Date of Birth: {employee.date_of_birth}</li>
+                <li>Gender: {employee.gender}</li>
+                <li>Nationality: {employee.nationality}</li>
               </ul>
             </ul>
           </div>

@@ -31,6 +31,8 @@ export default function TimesheetsPage() {
                   <li>Employee: {timesheet.full_name} (ID: {timesheet.employee_id})</li>
                   <li>Start Time: {timesheet.start_time}</li>
                   <li>End Time: {timesheet.end_time}</li>
+                  <li>Work Hours: {timesheet.work_hours}</li>
+                  <li>Break  Hours: {timesheet.break_hours}</li>
                 </ul>
               </ul>
             </div>
